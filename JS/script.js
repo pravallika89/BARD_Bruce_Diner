@@ -1,15 +1,15 @@
+function getdetails()
+{
+var a = document.forms["details"]["firstName"].value;
+var b = document.forms["details"]["lastName"].value;
+var c= document.forms["details"]["phone"].value;
 
-// const firstName=document.getElementById("firstName");
-// const lastName=document.getElementById("lastName");
-// const phone=document.getElementById("phone");
+  if (a,b,c < 1) 
+ {alert("Please Enter Valid details")}
+ else
+ {alert("Successfully Registered")}
+ 
+}
 
-
-// const button = document.getElementById('bn');
-// button.addEventListener('click',submitInfo());
-
-// button.addEventListener("click",function(){
-//   console.log(firstName.value);
-  
-//   })
 
 
